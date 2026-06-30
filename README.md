@@ -1,6 +1,6 @@
 # Ar_Solver
 
-Certified computation of the **discrete RAD-CRT floor** `A_r` for the
+Certified computation of the **discrete RAD-CRT floor** `A_r` (OEIS A118478(r)) for the
 prime-complete consecutive-product problem.
 
 `A_r` is the smallest integer `m` at or above the primorial floor such that
