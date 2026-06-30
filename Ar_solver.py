@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Ar_solver.py version 3
+# Ar_solver.py version 5
 """
 Ar_solver.py  --  Certified computation of A_r, the discrete RAD-CRT floor.
 
@@ -75,7 +75,7 @@ except Exception:
             x = y
 
 PROGRAM_NAME = "Ar_solver.py"
-PRORAM_VERSION = "3"
+PRORAM_VERSION = "5"
 
 # ---------------------------------------------------------------------------
 # Primes
