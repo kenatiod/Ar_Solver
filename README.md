@@ -57,6 +57,16 @@ diagnostic for the open floor lemma `d_r = o(θ)`.
 Output columns: `r`, `p_r`, `log_Pr_theta`, `half_log_Pr`, `r_ln2`, `log_Ar`,
 `Delta_r`, `deficiency_dr`, `dr_over_theta`, `A_r`.
 
+Each `A_r` is the **smallest integer that could be a prime-complete consecutive 
+product at order `r`** — the lowest admissible CRT root above the primorial floor. 
+The proof works by showing this lower bound has risen _above_ the smooth ceiling 
+`L_r` (the largest such product that smoothness permits). Once `A_r > L_r`, the 
+window has closed: the cheapest possible candidate already exceeds the most 
+expensive allowed one, so no prime-complete product can exist at that order. 
+The values in these tables are the certified left-hand side of that inequality. 
+Their growth — far outpacing `L_r` — is the wall that seals off every order 
+beyond the last known solution.
+
 ## Methods
 
 The program offers three computation methods plus an automatic dispatcher.
