@@ -172,4 +172,4 @@ its sorted half-residue table.
 
 ## License
 
-MIT License — see LICENSE.
+MIT License — see [LICENSE](LICENSE).
