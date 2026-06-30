@@ -172,4 +172,4 @@ its sorted half-residue table.
 
 ## License
 
-(Choose one — e.g. MIT — and add a `LICENSE` file.)
+MIT License — see LICENSE.
